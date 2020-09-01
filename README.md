@@ -21,3 +21,13 @@ yarn dev (or npm run dev)
 
 ## Run tests
 yarn test (or npm run test)
+
+
+Notes upon completion:
+Managed to recreate the majority (Card, Sidebar and MenuPreview) in generic React components.
+Move styling from app.css into styled components for each component to make it more efficient and easier to read.
+
+Did not manage to recreate the menu summary into a React component within the 2 hours given. however I would go about doing this the same way as I have for the other components
+I did not manage to write the tests in the time limit either, for this I had to spend a bit of time getting my head around react-testing-library and jest.
+However I did decide that it would be good practice for myself to write the tests that I have, even in the time after the 2 hours
+
